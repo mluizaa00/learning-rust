@@ -18,6 +18,7 @@ pub fn create(height: f32, width: f32) {
     println!("A new rectangle has been created with the following information: ");
     println!("Height: {}", rectangle.height);
     println!("Width: {}", rectangle.width);
+    
     area(rectangle);
     perimeter(rectangle);
     diagonal(rectangle);
